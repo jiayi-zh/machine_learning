@@ -1,7 +1,7 @@
 from sklearn.datasets import load_iris
 
 
-def sklearnIrisDatasetsApi():
+def sklearn_iris_datasets_api():
     # 获取鸢尾花数据集 -> 返回值 datasets.base.Bench(字典格式)
     iris = load_iris()
     # 查看鸢尾花数据集
@@ -14,4 +14,4 @@ def sklearnIrisDatasetsApi():
     print("鸢尾花描述: \n", iris.DESCR)
 
 
-sklearnIrisDatasetsApi()
+sklearn_iris_datasets_api()
