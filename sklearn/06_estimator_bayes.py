@@ -4,6 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
 
 
+# 估计器 - 朴素贝叶斯算法
 def estimator_bayes_api():
     # 获取数据
     news = fetch_20newsgroups(subset="all")
